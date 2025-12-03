@@ -324,6 +324,11 @@ require("lazy").setup({
     }
 })
 
+-- Import general Neovim configuration
+-- ====================================
+local home_dir = vim.fn.expand("~")
+dofile(home_dir .. "/.config/nvim-general/config.lua")
+
 -- Neoterm Configuration
 -- =====================
 vim.g.neoterm_size = tostring(math.floor(0.2 * vim.o.lines))
@@ -381,8 +386,3 @@ vim.api.nvim_create_autocmd("BufWritePre", {
         conform.format({async = false, lsp_fallback = true})
     end
 })
-
--- Import general Neovim configuration
--- ====================================
-local home_dir = vim.fn.expand("~")
-dofile(home_dir .. "/.config/nvim-general/config.lua")
