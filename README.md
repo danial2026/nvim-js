@@ -5,7 +5,7 @@ A specialized Neovim configuration optimized for JavaScript, TypeScript, React, 
 ## Screenshots
 
 <p float="left">
-  <img src="./screenshots/img0.png" height="250" />
+  <img src="./screenshots/img0.png"/>
 </p>
 
 ## Features
