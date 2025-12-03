@@ -2,6 +2,12 @@
 
 A specialized Neovim configuration optimized for JavaScript, TypeScript, React, and Next.js development.
 
+## Screenshots
+
+<p float="left">
+  <img src="./screenshots/img0.png" height="250" />
+</p>
+
 ## Features
 
 - 🚀 **LSP Support**: TypeScript, JavaScript, Tailwind CSS, HTML, CSS, ESLint
